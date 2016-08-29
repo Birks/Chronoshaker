@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="numberSize">92</integer>
+    <integer name="numberWHourSize">70</integer>
+
+</resources>

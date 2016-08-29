@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+
+    <string name="app_name">Chronoshaker</string>
+    <string name="action_settings">Useless button</string>
+    <string name="startPauseDesc">Start or Pause</string>
+    <string name="resetSplitDesc">Reset or Split</string>
+    <string name="tapText">Hold the screen and shake it</string>
+    <string name="tapSplit">Tap the split time to view split times</string>
+    <string name="tapLap">"Tap the lap time to view lap times"</string>
+    <string name="lap">Lap</string>
+    <string name="split">Split</string>
+    <string name="shakeNow">"Shake the phone now"</string>
+    <string name="aboutTitle">About Chronoshaker"</string>
+    <string name="aboutText">Created by Tamás Birkás\nVersion 1.4.11\nVTŠ VP Project 2014</string>
+    <string name="chronometer_initial_format">Initial format:<xliff:g id="initial-format">%</xliff:g></string>
+    <string name="action_rotate">Rotate screen</string>
+    <string name="dialogtext">Ide jönnek az idők.</string>
+    <string name="btn_close">Close</string>
+    <string name="action_exit">Exit</string>
+    <string name="activity_title_split">Split times</string>
+    <string name="activity_title_lap">Lap times</string>
+    <string name="action_about">About</string>
+    <string name="action_rate">Rate the app</string>
+    <string name="splitIconText">Expand</string>
+    <string name="timemode">Select time mode</string>
+    <string-array name="timemode_items">
+        <item>Split time</item>
+        <item>Lap time</item>
+    </string-array>
+
+
+</resources>

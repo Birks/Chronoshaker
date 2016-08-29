@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/media/tommy/Data/Workspaces/Android/Stopper/stopper/build/intermediates/exploded-aar/com.android.support/palette-v7/21.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="b65c2fede61220ed2b6a063f11ca13160910089e">
+        <dex dex="/media/tommy/Data/Workspaces/Android/Stopper/stopper/build/intermediates/pre-dexed/debug/classes-b9b2d307cc837bbad092ba86ef95e3e2a19311f7.jar" />
+    </item>
+    <item
+        jar="/home/tommy/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.0/support-annotations-21.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e">
+        <dex dex="/media/tommy/Data/Workspaces/Android/Stopper/stopper/build/intermediates/pre-dexed/debug/support-annotations-21.0.0-08213730c18ab19024c7c681dd125b960a526e37.jar" />
+    </item>
+    <item
+        jar="/media/tommy/Data/Workspaces/Android/Stopper/stopper/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="95fd37732ec852e99f07eeb516a3650172f1d136">
+        <dex dex="/media/tommy/Data/Workspaces/Android/Stopper/stopper/build/intermediates/pre-dexed/debug/classes-836828ca3ec45991bd52dbcdca22c05cebe4d397.jar" />
+    </item>
+    <item
+        jar="/media/tommy/Data/Workspaces/Android/Stopper/stopper/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/libs/internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
+        <dex dex="/media/tommy/Data/Workspaces/Android/Stopper/stopper/build/intermediates/pre-dexed/debug/internal_impl-21.0.0-4f85268fd04224769793241570d696beab51a12e.jar" />
+    </item>
+    <item
+        jar="/media/tommy/Data/Workspaces/Android/Stopper/stopper/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
+        <dex dex="/media/tommy/Data/Workspaces/Android/Stopper/stopper/build/intermediates/pre-dexed/debug/classes-6590df392dc17be994e1683debd6525b887436a6.jar" />
+    </item>
+    <item
+        jar="/media/tommy/Data/Workspaces/Android/Stopper/stopper/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="efeda77c808750cb670ee9c48d8a1835d89dbcb2">
+        <dex dex="/media/tommy/Data/Workspaces/Android/Stopper/stopper/build/intermediates/pre-dexed/debug/classes-c1609a81b42b730f095b154c521bf3fe760cae1c.jar" />
+    </item>
+    <item
+        jar="/media/tommy/Data/Workspaces/Android/Stopper/stopper/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="0f6d5c1ef2e982c3b7858408e3df389cf5d202da">
+        <dex dex="/media/tommy/Data/Workspaces/Android/Stopper/stopper/build/intermediates/pre-dexed/debug/classes-4aefc83d9b713df360e8aa22da99221c062f78cb.jar" />
+    </item>
+    <item
+        jar="/media/tommy/Data/Workspaces/Android/Stopper/stopper/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="7d2525cba8ed61fff102977caed964fc22061e34">
+        <dex dex="/media/tommy/Data/Workspaces/Android/Stopper/stopper/build/intermediates/pre-dexed/debug/classes-4940390530379ee89788fe8820e54b3190d6c1cd.jar" />
+    </item>
+
+</items>

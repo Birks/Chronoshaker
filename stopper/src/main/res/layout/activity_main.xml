@@ -1,0 +1,138 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainbg"
+    tools:context="rs.ac.su.vts.vp.stopper.MainActivity">
+
+    <rs.ac.su.vts.vp.stopper.MyCustomView
+        android:id="@+id/myscustomview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottombar"
+        android:background="@color/mainbg"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/layout"
+            style="@style/nowCardStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@+id/bottombar"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:weightSum="1">
+
+
+            <TextView
+                android:id="@+id/tapText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="@dimen/tapMarginTop"
+                android:text="@string/tapText"
+                android:textColor="@color/googletextcolor"
+                android:textSize="@dimen/tapTextSize" />
+
+
+            <rs.ac.su.vts.vp.stopper.Chronometer
+                android:id="@+id/chronometer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/googletextcolor"
+                android:textSize="@dimen/numberSize" />
+
+            <ProgressBar
+                android:id="@+id/progressBar1"
+                android:layout_width="@dimen/progressSpinnerSize"
+                android:layout_height="@dimen/progressSpinnerSize"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/tapProgressBarTop"
+                android:layout_marginTop="@dimen/tapProgressBarTop"
+                android:indeterminateDrawable="@drawable/progress" />
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/splitText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:onClick="startDialog"
+                    android:text="@string/app_name"
+                    android:textColor="@color/googletextcolor"
+                    android:textSize="@dimen/tapTextSize"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <ImageButton
+                    android:id="@+id/dialogButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/splitText"
+                    android:background="#ffffff"
+                    android:onClick="startDialog"
+                    android:src="@drawable/ic_action_expand"
+                    android:contentDescription="@string/splitIconText" />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </rs.ac.su.vts.vp.stopper.MyCustomView>
+
+    <LinearLayout
+        android:id="@+id/bottombar"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/imageButtonHeight"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/bottombarcolor"
+        android:baselineAligned="false"
+        android:gravity="bottom"
+        android:elevation="2dp"
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:id="@+id/startPause"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/imageButtonHeight"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/selector"
+            android:contentDescription="@string/startPauseDesc"
+            android:foregroundGravity="center"
+            android:onClick="onStartClick"
+            android:src="@drawable/ic_action_play" />
+
+
+        <ImageButton
+            android:id="@+id/resetSplit"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/imageButtonHeight"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/selector"
+            android:contentDescription="@string/resetSplitDesc"
+            android:foregroundGravity="center"
+            android:onClick="onResetClick"
+            android:src="@drawable/ic_action_replay" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

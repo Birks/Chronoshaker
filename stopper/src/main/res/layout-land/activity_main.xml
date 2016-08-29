@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainbg"
+    tools:context="rs.ac.su.vts.vp.stopper.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/bottombar"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/paddingTopBot"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/paddingTopBot"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/tapText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/tapTextBotLand"
+            android:text="@string/tapText"
+
+            android:textSize="@dimen/tapTextSize" />
+
+
+        <rs.ac.su.vts.vp.stopper.Chronometer
+            android:id="@+id/chronometer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/chronometerTopLand"
+            android:textSize="@dimen/numberSize" />
+
+        <ProgressBar
+            android:id="@+id/progressBar1"
+            android:layout_width="@dimen/progressSpinnerSize"
+            android:layout_height="@dimen/progressSpinnerSize"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/progressBarTopLand"
+            android:indeterminateDrawable="@drawable/progress" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/bottombar"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/abc_action_bar_default_height_material"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/bottombarcolor"
+        android:baselineAligned="false"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:id="@+id/startPause"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/abc_action_bar_default_height_material"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/selector"
+            android:contentDescription="@string/startPauseDesc"
+            android:foregroundGravity="center"
+            android:onClick="onStartClick"
+            android:src="@drawable/ic_action_play" />
+
+
+        <ImageButton
+            android:id="@+id/resetSplit"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/abc_action_bar_default_height_material"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/selector"
+            android:contentDescription="@string/resetSplitDesc"
+            android:foregroundGravity="center"
+            android:onClick="onResetClick"
+            android:src="@drawable/ic_action_replay" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

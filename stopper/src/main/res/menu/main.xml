@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="rs.ac.su.vts.vp.stopper.MainActivity">
+
+    <item
+        android:id="@+id/action_rotate"
+        android:icon="@drawable/ic_action_screen_rotation"
+        android:title="@string/action_rotate"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_timemode"
+        android:title="@string/timemode"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_rate"
+        android:title="@string/action_rate"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_about"
+        android:title="@string/action_about"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_exit"
+        android:orderInCategory="100"
+        android:title="@string/action_exit"
+        app:showAsAction="never" />
+
+</menu>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="rs.ac.su.vts.vp.stopper">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher_fill"
+        android:label="@string/app_name"
+        android:logo="@drawable/ic_launcher_fill"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="rs.ac.su.vts.vp.stopper.MainActivity"
+            android:configChanges="orientation|screenSize|uiMode"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DialogActivity"
+            android:theme="@android:style/Theme.Dialog">
+        </activity>
+
+    </application>
+    <uses-feature android:name="android.hardware.sensor.accelerometer" android:required="true" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+</manifest>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+
+    <string name="app_name">Chronoshaker</string>
+    <string name="action_settings">Useless button</string>
+    <string name="startPauseDesc">Start vagy pauzálás</string>
+    <string name="resetSplitDesc">Újrakezdés vagy vágás</string>
+    <string name="tapText">Érintsd meg a képernyőt hosszan</string>
+    <string name="tapSplit">Érintsd meg a részidőt és lásd az időket</string>
+    <string name="tapLap">Érintsd meg a köridőt és lásd az időket</string>
+    <string name="lap">Köridő</string>
+    <string name="split">Részidő</string>
+    <string name="shakeNow">Rázd meg a telefont most</string>
+    <string name="aboutTitle">A Chronoshakerről"</string>
+    <string name="aboutText">Készítette Birkás Tamás\nVerzió 1.4.11\nVTŠ VP Project 2014</string>
+    <string name="chronometer_initial_format">Initial format:<xliff:g id="initial-format">%</xliff:g></string>
+    <string name="action_rotate">Képernyő elforgatása</string>
+    <string name="dialogtext">Ide jönnek az idők.</string>
+    <string name="btn_close">Bezárás</string>
+    <string name="action_exit">Kilépés</string>
+    <string name="activity_title_split">Részidők</string>
+    <string name="activity_title_lap">Köridők</string>
+    <string name="action_about">Az alkalmazásról</string>
+    <string name="action_rate">Értékeld az alkalmazást</string>
+    <string name="splitIconText">Kibővítés</string>
+    <string name="timemode">Válassz idő módot</string>
+    <string-array name="timemode_items">
+        <item>Részidő</item>
+        <item>Köridő</item>
+    </string-array>
+
+
+</resources>
